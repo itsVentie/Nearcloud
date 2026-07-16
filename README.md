@@ -41,7 +41,7 @@ All traffic is encrypted in transit using TLS 1.3 with ephemeral keys. Self-sign
 
 ### Phase 1: Core Network Engine (CLI MVP)
 - [x] Implement mDNS-based peer discovery and service registration.
-- [ ] Develop a lightweight TCP server/client architecture.
+- [x] Develop a lightweight TCP server/client architecture.
 - [ ] Implement TLS 1.3 with dynamic self-signed certificate generation.
 - [ ] Establish a basic framing protocol for file metadata exchange.
 - [ ] Add a CLI interactive CLI prompt for transfer confirmation.
