@@ -5,7 +5,6 @@ Local-first, zero-configuration peer-to-peer (P2P) file sharing platform bypassi
 Nearcloud establishes direct, high-throughput TLS connections over local network interfaces (Wi-Fi or Ethernet). Discovery is entirely decentralized, removing the requirement for static IP allocation, internet access, or external orchestration.
 
 
-```
 
 ```
                        [ LAN / Wi-Fi Network ]
@@ -22,8 +21,6 @@ Nearcloud establishes direct, high-throughput TLS connections over local network
  │ │  Go Engine    ├─┼────────────────────────►│  Go Engine    │ │
  │ └───────────────┘ │      (Direct Stream)    │ └───────────────┘ │
  └───────────────────┘                         └───────────────────┘
-
-```
 
 ```
 
