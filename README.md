@@ -5,7 +5,6 @@ Local-first, zero-configuration peer-to-peer (P2P) file sharing platform bypassi
 Nearcloud establishes direct, high-throughput TLS connections over local network interfaces (Wi-Fi or Ethernet). Discovery is entirely decentralized, removing the requirement for static IP allocation, internet access, or external orchestration.
 
 
-
 ```
                        [ LAN / Wi-Fi Network ]
                                   │
@@ -24,6 +23,7 @@ Nearcloud establishes direct, high-throughput TLS connections over local network
 
 ```
 
+
 ## Features & Architecture
 
 ### 1. Zero-Config Peer Discovery (mDNS)
@@ -40,7 +40,7 @@ All traffic is encrypted in transit using TLS 1.3 with ephemeral keys. Self-sign
 ## Roadmap
 
 ### Phase 1: Core Network Engine (CLI MVP)
-- [ ] Implement mDNS-based peer discovery and service registration.
+- [x] Implement mDNS-based peer discovery and service registration.
 - [ ] Develop a lightweight TCP server/client architecture.
 - [ ] Implement TLS 1.3 with dynamic self-signed certificate generation.
 - [ ] Establish a basic framing protocol for file metadata exchange.
@@ -85,4 +85,5 @@ go build -o nearcloud ./cmd/cli
 ```bash
 go install [github.com/wailsapp/wails/v2/cmd/wails@latest](https://github.com/wailsapp/wails/v2/cmd/wails@latest)
 wails dev
+
 ```
